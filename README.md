@@ -1,4 +1,4 @@
-### PARTADOC
+# PARTADOC
 
 ## Synopsis
 Projet développé dans le cadre d'un enseignement en développement Web à l'IUT de Bayonne et du Pays Basque en 2012.
