@@ -1,0 +1,40 @@
+/* Fichier style correspondant au modèle de vue modeleVue_avantIdentification */
+
+body
+{
+    background-color : rgb(235, 235, 254);
+}
+	
+
+#zone_haute
+{
+	position : relative;
+	text-align : center;
+	
+}
+
+#zone_centrale
+{
+	background-color : rgb(236, 236, 247);
+	border-radius : 5px;
+    font : bold small-caps 16px "Trebuchet MS", Calibri, Tahoma, Sans-serif;
+	text-align : center;
+	position : relative;
+	margin-top : 20px;
+	margin-left : 20%;
+	margin-right : 20%;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+
+label
+{
+	display : block;
+	text-align : center;
+	width : auto;
+}
+
+input
+{
+	margin-top : 5px;
+}

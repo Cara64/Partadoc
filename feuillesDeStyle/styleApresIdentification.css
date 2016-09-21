@@ -1,0 +1,100 @@
+/* Fichier style correspondant au modèle de vue modeleVue_apresIdentification */
+
+/* GLOBAL */
+body
+{
+    background-color : rgba(199,208,254,0.4);
+}
+	
+
+/*ZONE_HAUTE*/
+#zone_haute
+{
+	text-align : center;
+}
+
+
+/*ZONE_NAVIGATION*/
+#zone_navigation
+{
+	margin-top : 20px;
+	padding : 0;
+	list-style : none;
+	text-align : center;
+}
+
+#zone_navigation li
+{
+	display : inline;
+	margin-right : 0px;
+}
+
+#zone_navigation .nomUtilisateur 
+{
+	margin-right : 20px;
+	background-color : rgba(2,22,117,0.8);
+	color : #fff;
+	padding : 4px 20px;
+	font : bold small-caps 16px "Trebuchet MS", Calibri, Tahoma, Sans-serif;
+	text-shadow : 1px 1px 1px black;
+	border : 1px black solid;
+	box-shadow : 2px 2px 2px black;
+}
+
+#zone_navigation li a {
+	margin-left : 0px;
+	background-color : rgba(1,9,44,0.8);
+	color : #fff;
+	padding : 4px 20px;
+	font : bold 16px "Trebuchet MS", Calibri, Tahoma, Sans-serif;
+	text-decoration : none;
+	border : 1px black solid;
+	box-shadow : 2px 2px 2px black;
+}
+
+#zone_navigation li a:hover, #zone_navigation li a:focus, #zone_navigation li a:active {
+  background: rgb(3,30,156) ;
+  text-decoration: none;
+}
+
+
+/* ZONE MESSAGE SYSTEME*/
+#zone_messageSysteme
+{
+	text-align : center;
+	margin : 30px auto;
+	font : 18px "Trebuchet MS", Calibri, Tahoma, Sans-serif;
+	border : 1px black dashed;
+	padding : 5px 10px;
+	background-color : rgba(207,216,254,0.5);
+}
+
+/* ZONE PRINCIPALE */
+#zone_principale
+{
+	margin-top : 20px;
+	text-align : center;
+}
+
+#zone_principale table{
+	border-collapse : collapse;
+	margin : auto;
+}
+
+#zone_principale td{
+	border : 1px black solid;
+	padding : 5px 5px;
+	font : 16px "Trebuchet MS", Calibri, Tahoma, Sans-serif;
+}
+
+#zone_principale img{
+	width : 50px;
+	height : 50px;
+}
+
+#zone_principale th{
+	border : 1px black solid;
+	padding : 5px 6px;
+	font : bold 16px "Trebuchet MS", Calibri, Tahoma, Sans-serif;
+	background-color : rgb(255,255,255);
+}
